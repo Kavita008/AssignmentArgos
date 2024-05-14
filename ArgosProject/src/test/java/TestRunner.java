@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty", "html:target/cucumber.html"}
 
-        , features = "/Users/kavitapatial/Desktop/PROJECTS/GlobalUsage/ArgosProject/src/test/java/feature"
+        , features="/Users/kavitapatial/Desktop/PROJECTS/AssignmentArgos/ArgosProject"
         , glue = {"browsercontrol", "stepdefinitions"},
         tags = "@Smoketest")
 
